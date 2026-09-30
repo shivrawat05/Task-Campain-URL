@@ -32,7 +32,7 @@
 This project follows clean layered architecture (**Controller - Service - Model / Repository pattern**), separation of concerns, defensive validation, and unified error handling:
 
 ```
-Interview/
+Tak-Campaoin-URL/
 ├── client/                              # Frontend (React 18 + Vite)
 │   ├── src/
 │   │   ├── components/
@@ -165,9 +165,9 @@ _The Vite frontend will start on port `5173` and automatically proxy `/api` and 
 
 ```json
 {
-  "name": "Black Friday Sale",
-  "campaign_id": "black-friday-2026",
-  "destination_url": "https://example.com/black-friday",
+  "name": "Test By Shivang",
+  "campaign_id": "test-by-shivang",
+  "destination_url": "https://example.com/test-by-shivang",
   "status": "active"
 }
 ```
