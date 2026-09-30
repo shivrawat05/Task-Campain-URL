@@ -1,0 +1,27 @@
+{
+  "name": "campaign-url-manager-server",
+  "version": "1.0.0",
+  "description": "Enterprise-ready Backend API for Campaign URL Manager",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "campaign",
+    "url-manager",
+    "express",
+    "sqlite3"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "campaign-url-manager-root": "file:..",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.7"
+  }
+}
